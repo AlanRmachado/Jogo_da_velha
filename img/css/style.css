@@ -1,0 +1,99 @@
+.box-jogo{
+    width: 100%;
+    padding: 10px;
+    background: #14BDAC;
+    margin: 20px 0 0;        
+}
+body{
+    background:url('../img/bg.png');
+}
+ul li{
+    list-style: none !important;
+    margin:10px 0 20px;
+    transition: 1s;
+}
+ul li img{
+    width:20px;
+    height:20px;    
+}
+table{
+    border-collapse: separate; 
+    border-spacing: 2px;
+    margin: 0 auto;
+  }
+.bloco{
+    width: 100px;
+    height: 100px;
+    background: #FED236;
+   
+    text-align: center;           
+}
+td img{
+    width: 88px;
+    height: 88px;
+}
+.placar p{
+    text-align: center!important;
+    font-size: 18px;
+    color: #FED236;
+    font-weight: bold;
+}
+.modalcustom{
+    width: 100%;
+    background: #fff;
+    height: 200px;
+    border-radius: 5px;
+    display: none;
+    animation-name: teste;
+    animation-duration: 1s;
+    animation-timing-function : ease;
+    position: relative;
+    z-index: 20000;
+    margin-top: -310px;
+}
+
+.showModal{
+    display: block;   
+}
+
+@keyframes teste{
+    from{
+        margin-top:0px;
+    }to{
+       margin-top: -310x; 
+    }
+}
+.btn-custom{
+    float: right;
+    margin-right: 10px;
+}
+.titulomodal{
+    width: 100%;
+    height: 75px;
+}
+.textomodal{
+    width: 100%;
+    height: 80px;
+}
+.botoesmodal{
+    width: 100%;
+    height: 80px;
+}
+.modalcustom p {
+    padding: 10px;
+}
+.fundoModal{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+    z-index: 10;
+    display: none;
+}
+.openFundoModal{
+    display: block;
+}
+#texto-modal{
+    text-align: center;
+    font-weight: bold;
+}

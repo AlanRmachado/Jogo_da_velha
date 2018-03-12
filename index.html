@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jogo da Velha</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="fundoModal" id="fundoModal"></div>    
+    <div class="container">
+        
+        <div class="row">            
+            <div class="col-md-offset-2 col-md-8">
+                <div class="box-jogo">
+                    <div class="row">
+                       <div class="col-md-offset-4 col-xs-2 col-sm-offset-4 col-md-2 col-sm-2 placar">
+                           <p>X</p>
+                           <p id="placarX">2</p>
+                       </div> 
+                       <div class="col-md-2 col-sm-2 col-xs-2 placar">
+                        <p >O</p>
+                        <p id="placarBola">0</p>
+                    </div>
+                    </div>
+                    <div class="row">                        
+                        <div class="col-md-12 col-sm-12">          
+                            <table id="tb" disabled> 
+                                <tbody>
+                                    <tr>
+                                        <td class="bloco" id="a1" ></td>
+                                        <td class="bloco" id="a2"></td>
+                                        <td class="bloco" id="a3"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bloco" id="b1"></td>
+                                        <td class="bloco" id="b2"></td>
+                                        <td class="bloco" id="b3"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bloco" id="c1"></td>
+                                        <td class="bloco" id="c2"></td>
+                                        <td class="bloco" id="c3"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>    
+                    </div>        
+                </div> 
+            </div>
+        </div>
+        <p style="text-align:center" onclick="openModal()">By Alan Machado</p>
+        <div class="row">
+                <div class="col-md-offset-2 col-md-8">
+                    <div class="modalcustom" id="modalCustom">
+                        <div class="titulomodal">
+                            <p>Atenção</p>
+                            <hr>
+                        </div>
+                        <div class="textomodal">
+                            <p id="texto-modal"></p>
+                            <hr>
+                        </div>
+                        <div class="botoesmodal">
+                            <button type="button" class="btn btn-primary btn-custom" id="btnCloseModal">Ok</button>
+                        </div>                        
+                    </div>
+                </div>    
+            </div>
+    </div> 
+  
+ 
+</body>
+</html>
