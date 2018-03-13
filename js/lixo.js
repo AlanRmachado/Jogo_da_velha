@@ -8,10 +8,7 @@
                 }else if(matrizJogo['a2'] === 'bola' && !matrizJogo['a3']){
                     putDesenho('a3', 'bola');
                 }else if(matrizJogo['a2'] === 'bola' && !matrizJogo['a1']){
-                    putDesenho('a1', 'bola');
-                }else if(!matrizJogo['c1']){
-                    putDesenho('c1', 'bola');
-                }else if(!matrizJogo['a3']){
+        
                     putDesenho('a3', 'bola');
                 }else if(!matrizJogo['a1']){
                     putDesenho('a1', 'bola');
