@@ -16,4 +16,4 @@
                     putDesenho('a2', 'bola');
                 }
 
-                Math.floor(Math.random() * (max - min)) + min;
+               // Math.floor(Math.random() * (max - min)) + min;
